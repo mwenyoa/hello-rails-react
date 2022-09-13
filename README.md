@@ -24,6 +24,10 @@ _To get a local copy up and running follow these simple steps._
        ./bin/dev
    ```
 
+### Setup
+     rails db:seed
+    
+  
 ## Errors
 
 If you encounter any errors, run the following commands.
