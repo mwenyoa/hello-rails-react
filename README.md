@@ -1,24 +1,71 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> # hello-rails-react
+This project is about setting Set up a "Hello world" project as one app with Webpack
 
-Things you may want to cover:
+----
 
-* Ruby version
+# Getting Started
 
-* System dependencies
+_To get a local copy up and running follow these simple steps._
 
-* Configuration
+1. Clone the repo
+   ```sh
+   https://github.com/mwenyoa/hello-rails-react.git
+   ```
+2. Goto project directory
+   ```sh
+   cd hello-rails-react
+   ```
 
-* Database creation
+3. Configure `database.yml` in the config folder according to your postgreSQL configuration
+4. Run app
+   ```sh
+       ./bin/dev
+   ```
 
-* Database initialization
+## Errors
 
-* How to run the test suite
+If you encounter any errors, run the following commands.
 
-* Services (job queues, cache servers, search engines, etc.)
+- Run `rails db:drop db:create db:migrate` to drop, create and migrate a new database.
 
-* Deployment instructions
+- Run `rubocop && rubocop -A` to check for and fix code errors.
 
-* ...
+### This project was built with
+
+- Ruby on Rails
+
+- PostgreSQL
+
+- Webpack
+
+- React
+
+# Author
+
+👤 **Anthony Mwenyo**
+
+- GitHub: [@mwenyoa](https://github.com/mwenyoa)
+- Twitter: [@anthony_mwenyo](https://twitter.com/phayte_p)
+- LinkedIn: [Anthony Mwenyo](https://linkedin.com/in/anthony-mwenyo)
+
+# 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page].
+
+# Show your support
+
+Give a ⭐️ if you like this project!
+
+# Acknowledgement
+
+- Hat tip to anyone whose code was a source of inspiration.
+- A big thanks to [@microverseinc](https://github.com/microverseinc).
+- The design template provider [Gregoire Vella on Behance](https://www.behance.net/gregoirevella).
+
+# 📝 License
+
+This project is [MIT](./MIT.md) licensed.
